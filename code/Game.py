@@ -14,8 +14,3 @@ class Game:
         while True:
             menu = Menu(self.window)
             menu.run()
-            # Check for all events
-            # for event in pygame.event.get():
-            # if event.type == pygame.QUIT:
-            #        pygame.quit()
-            #      quit()

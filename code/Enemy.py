@@ -1,3 +1,4 @@
+from code.Const import ENTITY_SPEED
 from code.Entity import Entity
 
 
@@ -7,4 +8,4 @@ class Enemy(Entity):
         super().__init__(name, position)
 
     def move(self, ):
-        self.rect.centerx -= 1
+        self.rect.centerx -= ENTITY_SPEED[self.name]
